@@ -1,0 +1,41 @@
+#landing {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: auto;
+  text-align: center;
+  height: 100%;
+}
+
+#landing .principalTitle {
+  grid-row: 3;
+  letter-spacing: 6px;
+  font-size: 10vw;
+  margin: 0;
+  color: rgb(11, 232, 129);
+}
+
+#landing .subTitle {
+  grid-row: 4;
+  letter-spacing: 2px;
+  font-size: 2vw;
+  font-weight: 700;
+  color: #d1d8e0;
+}
+
+#landing > a {
+  grid-row: 5;
+  margin: auto;
+  background-color: rgb(11, 232, 129);
+  font-weight: 550;
+  color: #000;
+  width: 220px;
+  height: 45px;
+  padding-top: 20px;
+  letter-spacing: 2px;
+  font-size: 1.4em;
+}
+
+#landing > a:hover {
+  border: 2px solid #fff;
+  color: #000;
+}

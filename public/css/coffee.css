@@ -1,0 +1,73 @@
+#contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  border: 1px solid rgba(51, 217, 178,1.0);
+  width: 80%;
+  margin: 40px auto 40px auto;
+  align-items: center;
+}
+
+#contact .contact-form {
+  grid-template-rows: repeat(6, 1fr);
+  display: grid;
+  align-items: center;
+}
+
+#contact .contact-form > div {
+  width: 70%;
+  text-align: left;
+  margin-left: 20%;
+}
+
+.contact-form > div > p {
+  white-space:  pre-line;
+  color: #fff;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+#contact textarea {
+  white-space:  pre-line;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    border: 1px solid rgba(51, 217, 178,1.0);
+}
+
+
+#contact input :not(.submit-button) {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid rgba(51, 217, 178,1.0);
+}
+
+.contact-info {
+  background-color: #000;
+  height: 100%;
+  border: none !important;
+  color: #fff;
+}
+
+
+
+#contact .na {
+  grid-row: 2;
+}
+
+.email {
+  grid-row: 3;
+}
+
+.message {
+  grid-row: 4 / 6;
+}
+
+.submit-button {
+  grid-row: 6;
+  border: 1px solid rgba(51, 217, 178,1.0);
+  width: 20% !important;
+  text-align: center !important;
+}

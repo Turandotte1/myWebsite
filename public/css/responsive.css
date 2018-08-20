@@ -1,0 +1,51 @@
+@media screen and (max-width: 800px) {
+  #landing .principalTitle {
+    letter-spacing: 4px !important;
+    align-self: center;
+  }
+
+  #landing .subTitle {
+    font-size: 3.5vw !important;
+    text-align: center !important;
+    line-height: 30px;
+  }
+
+  div#navbar {
+    grid-template-columns: 200px 1fr !important;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  #navbar > a:nth-child(-n+4):not(.logo) {
+    font-size: 4vw !important;
+    letter-spacing: 3px !important;
+  }
+
+  #navbar .logo {
+    font-size: 7vw !important;
+  }
+
+  #about {
+    display: block !important;
+  }
+
+  #about .description {
+    margin: auto !important;
+
+  }
+  #about .description > p {
+    text-align: center !important;
+    padding: 10px 20px 10px 20px !important;
+    letter-spacing: 1px !important;
+    line-height: 7vw !important;
+    font-size: 5vw !important;
+  }
+
+  #about > div {
+    margin: auto !important;
+    margin-top: 100px !important;
+  }
+
+  #about > div.software {
+
+  }
+}
